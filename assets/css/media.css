@@ -1,0 +1,96 @@
+/*--------tap_scr----------------*/
+@media (max-width :991px) {
+
+    .logo {
+        width: 25%;
+    }
+
+    .navbar .container {
+        width: 85%;
+    }
+
+    .pic {
+        margin-right: 20px;
+    }
+
+    .para {
+        margin-left: 10px;
+        margin-top: 20px;
+
+    }
+
+    .ph {
+
+        width: 48%;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    .all {
+        width: 40%;
+    }
+
+}
+
+/*-----------mop_scr-----------------*/
+@media (max-width :816px) {
+    .list {
+        display: none;
+    }
+
+    .fa-bars {
+        display: unset ! important;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .logo,
+    .icons {
+        width: 50%;
+    }
+
+    .icons {
+        text-align: right;
+    }
+
+    .pic,
+    .para {
+        float: none;
+        width: 100%;
+
+    }
+
+    .pic {
+
+        margin: 0px 0px 10px 0px;
+    }
+
+    .para {
+
+        margin: 0px 0px 10px 0px;
+    }
+
+    .ph {
+        float: none;
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .all {
+        float: none;
+        width: 100%;
+
+    }
+
+}
+
+@media (max-width :500px) {
+    .ph {
+        float: none;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+}
